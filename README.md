@@ -71,7 +71,7 @@ ${POSE_ROOT}
 
 ### Attack_test
 
-```python
+```
 cd attack_test
 python test_openpose.py
 python test_yolo.py
@@ -80,7 +80,7 @@ python test_dekr.py
 
 ### Image quality evaluation
 
-```python
+```
 cd quality
 python main.py
 python fid.py
@@ -88,14 +88,14 @@ python fid.py
 
 ### Security evaluation
 
-```python
+```
 cd security
 python main.py
 ```
 
 ### draw_pose
 
-```python
+```
 cd drawer
 python pose_gen_1.py # use the pose keypoints from the coco label given the binary code
 python pose_gen_2.py # use the pose keypoitns from the results of pose detector (yolo et al.)
