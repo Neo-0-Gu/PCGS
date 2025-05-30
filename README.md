@@ -47,7 +47,7 @@ ${POSE_ROOT}
     `-- stega 
 ```
 
-To use the pose detector, please download pretrained models from [zoo](https://drive.google.com/drive/folders/1CJ1t0qsZrsNeyOhqHRXMjNKtM0QxabOV?usp=sharing) and make models directory look like this:
+To use the pose detector, please download pretrained models from [zoo](https://drive.google.com/drive/folders/1CJ1t0qsZrsNeyOhqHRXMjNKtM0QxabOV?usp=sharing) and make the model directory look like this:
 
 ```
 ${POSE_ROOT}
@@ -93,7 +93,7 @@ cd security
 python main.py
 ```
 
-### draw_pose
+### Draw_pose
 
 ```
 cd drawer
