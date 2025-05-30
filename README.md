@@ -25,4 +25,3 @@ pip install -r requirements.txt
 To generate images, we use the Automatic111 stable diffusion webui and the Dream Shaper pretrained model based on 	   Stable diffusion 1.5.
 
 ## Experiments
-
