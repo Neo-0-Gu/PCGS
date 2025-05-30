@@ -1,0 +1,32 @@
+# Core deep learning (CUDA 12.1+ only)
+torch==2.6.0
+torchvision==0.21.0
+
+# Array + vision utilities
+numpy==1.26.4
+opencv-python==4.9.0.80
+tqdm==4.66.2
+scipy==1.13.0
+timm==0.9.10
+scikit-learn==1.6.1
+grad-cam==1.5.5
+pyiqa==0.1.13
+
+# Config/logging
+yacs==0.1.8
+json_tricks==3.17.3
+pycocotools==2.0.7
+
+# Diffusers / Stable Diffusion
+diffusers==0.33.1
+transformers==4.39.3
+accelerate==0.27.2
+controlnet_aux==0.0.10
+
+# YOLOv11
+ultralytics==8.3.142
+
+
+
+# Aesthetic predictor
+git+https://github.com/christophschuhmann/improved-aesthetic-predictor
