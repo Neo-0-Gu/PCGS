@@ -4,7 +4,7 @@
 
 ## Abstract
 
-todo
+Secure transmission of private information over public chan nels without arousing suspicion remains a fundamental challenge in stega nography. Traditional methods modify pixel-level or frequency-domain features, making them vulnerable to detection and degradation. Recent synthesis-based approaches leverage generative models to embed data but often suffer from limited capacity or visual artifacts. In this work, we propose a pose conditioned generative steganographic framework that de couples message representation from image content. Binary messages are first mapped to human poses using a geometry-aware codebook derived from real-world data. These poses then serve as structural conditions to guide diffusion-based image generation, producing semantically coherent and visually natural stego images. By encoding multiple human poses in a single image, our framework increases message capacity while preserv ing visual coherence. To enhance robustness, we introduce a randomized linear expansion scheme to stabilize pose-code mapping under occlusion and detection noise. We evaluate the method under various perturba tions and assess detectability using state-of-the-art steganalysis models. Experimental results show strong imperceptibility, decoding accuracy, and semantic flexibility, highlighting the effectiveness of our framework in enabling secure and coverless generative steganography.
 
 ## Requirements
 
